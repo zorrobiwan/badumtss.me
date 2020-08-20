@@ -1,0 +1,22 @@
+{
+  "name": "badumtss",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodejs ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "less-middleware": "~2.2.0",
+    "mongodb": "^2.2.36",
+    "monk": "^3.1.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2",
+    "socket.io": "~1.7.2",
+    "socketio": "~1.0.0",
+    "twig": "~0.10.3"
+  }
+}

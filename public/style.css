@@ -1,0 +1,57 @@
+body {
+	height: 100%;
+	font-family: adelle, Georgia, "Times New Roman", Times, serif;
+	color: black;
+	font-size: 100px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+div.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('drums.jpg')no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	opacity: 0.5;
+}
+
+.counter {
+	font-family: 'Finger Paint', cursive;
+	position: relative;
+}
+
+.BaDumTss {
+	font-family: 'Indie Flower', cursive;
+	position: relative;
+}
+
+.small {
+	font-family: 'Indie Flower', cursive;
+	position: relative;
+	font-size: 30px;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	/* iOS Safari */
+	-webkit-user-select: none;
+	/* Chrome/Safari/Opera */
+	-khtml-user-select: none;
+	/* Konqueror */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	user-select: none;
+	/* Non-prefixed version, currently
+                                  not supported by any browser */
+}
